@@ -137,5 +137,14 @@ overflow:scroll ;
             .menu {
                 font-size: 80%
             }
-            .footer { font-size: 50%}
+            .footer { 
+            font-size: 50%;
+            font-style: italic;
+            align-items: center;
+            justify-content: center;
+            text-align: center;    
+            }
+        }
+              
+              }
         }
