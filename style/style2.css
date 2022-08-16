@@ -133,10 +133,9 @@ overflow:scroll ;
         transform: translate(-500px);
     }
     
-        @media (max-width: 768px) {
+          @media (max-width: 768px) {
             .menu {
-                font-size: 80%;
-
-
+                font-size: 80%
             }
+            .footer { font-size: 50%}
         }
