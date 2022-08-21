@@ -78,7 +78,7 @@ overflow:scroll ;
 
 .footer{
     grid-area: footer;
-    width: 100%;
+    width: 90%;
     height: 20px;
     color: rgb(12, 12, 12);
     justify-content: center;
@@ -144,7 +144,4 @@ overflow:scroll ;
             justify-content: center;
             text-align: center;    
             }
-        }
-              
-              }
-        }
+                                    }
