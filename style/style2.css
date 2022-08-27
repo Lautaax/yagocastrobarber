@@ -21,7 +21,7 @@ grid-template-areas:
 }
 
 .border{
-    border:1px solid black;
+border:1px solid black;
 }
 
 .header{
@@ -64,11 +64,7 @@ grid-area: content;
 padding: 1vw 1vw 1vw 1vw;
 margin: 2vw 2vw 2vw 0vw ;
 background-color: rgba(211, 211, 211, 0.571);
-border: solid ;
-overflow:scroll ;
-
-
-
+overflow:auto ;
 }
 .titulo{
     color: blueviolet;
@@ -78,7 +74,7 @@ overflow:scroll ;
 
 .footer{
     grid-area: footer;
-    width: 100%;
+    width: 90%;
     height: 20px;
     color: rgb(12, 12, 12);
     justify-content: center;
@@ -86,6 +82,7 @@ overflow:scroll ;
     font-size: 150%;
     margin: 10px 10px 10px 10px;
     padding: 5% ;
+    vertical-align:text-bottom;
 }
 
     .zoom:hover {
@@ -132,11 +129,57 @@ overflow:scroll ;
         transition: .3s ease-out all;
         transform: translate(-500px);
     }
-    
-        @media (max-width: 768px) {
-            .menu {
-                font-size: 80%;
 
-
-            }
+@media (max-width: 768px) {
+    .menu {
+    font-size: 80%
         }
+    .footer { font-size: 50%;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+    text-align: center;  
+    vertical-align:text-bottom; 
+    margin-top:auto;
+        }
+
+.fotofooter {
+    width: 20px;
+    height: 20px;
+}
+
+.grid{
+    width: 99%;
+    display: grid;
+    grid-template-rows: repeat(10, 9%);
+    grid-template-columns: repeat(5, 5fr);
+    grid-template-areas:
+        "header header header header header "
+        "menu menu menu menu menu "
+        "foto foto foto foto foto "
+        "foto foto foto foto foto "
+        "foto foto foto foto foto "
+        "foto foto foto foto foto "
+        "foto foto foto foto foto "
+        "content content content content content "
+        "content content content content content "
+        "content content content content content "
+        "content content content content content "
+        "footer footer footer footer footer " ;
+        
+    }
+    .foto-principal {
+        margin: 7% 5px 0px 5%;
+        padding: 5px 5px 0px 5px;
+        border: solid;
+        display:inline-flex ;
+        width: 90%;
+    }
+
+    .content {
+        grid-area: content;
+        padding: 1vw 1vw 1vw 1vw;
+        margin: 0vw 2vw 2vw 2vw ;
+        }
+
+    }

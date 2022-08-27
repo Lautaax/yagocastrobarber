@@ -28,24 +28,21 @@ margin: 4vw;
 }
 
 .lado2 {
-        width:65%;
-        background-color: lightgray;
-        display: inline-block;
-        overflow: auto;
-        padding: 1vw 1vw 1vw 1vw;
-        margin: 2vw 2vw 2vw 0vw ;
-        border: solid ;
-        vertical-align:top;
-
-        
+    width:65%;
+    background-color: lightgray;
+    display: inline-block;
+    overflow: auto;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 2vw 2vw 2vw 0vw ;
+    border: solid ;
+    vertical-align:top;
     }
 
 .historia {
-            color: chocolate;
-            margin: 5px 5px 5px 5px;
-            padding: 5px 5px 5px 5px;
-            font-family: 'Edu VIC WA NT Beginner', cursive;
-            font-size: 125%;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 125%;
 }
 
 .turno {
@@ -86,16 +83,15 @@ margin: 4vw;
     }
 
 
-    .cardprincipal {
-        width:26%;
-        background-color: lightgray;
-        display: inline-block;
-        overflow: auto;
-        padding: 1vw 1vw 1vw 1vw;
-        margin: 2vw 1vw 2vw 1vw ;
-        border: solid ;
-        vertical-align:top;
-        
+.cardprincipal {
+    width:26%;
+    background-color: lightgray;
+    display: inline-block;
+    overflow: auto;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 2vw 1vw 2vw 1vw ;
+    border: solid ;
+    vertical-align:top;
     }
 
 .card__precio{
@@ -136,15 +132,7 @@ font-size: 2vh;
     border-radius: 10px;
 }
 
-.footer {
-    color: white;
-    line-height: 2;
-    text-align: center;
-    margin: 0.5vw 1vh ;
-    padding: 0.2vw 0.2vw;
-    vertical-align:bottom;
-    font-size: 1.5vh
-}
+
 
 
 
