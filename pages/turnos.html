@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Turnos - Yago Castro</title>
-    <link rel="stylesheet" href="../style/normalize.css" />    
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/style2.css">
 </head>
 <body>
 </head>
@@ -43,11 +33,21 @@
                             <label for="terminos">¿Aceptas nuestros términos y condiciones?</label>
                             <input type="checkbox" name="acepto" value="1"/>
                         </div>
-                        <p><input class="btn btn-success" type="submit" value="Confirmar"></p>
+                        <p> <input type="submit" name="process" class="btn btn-primary" onclick="Confirmar(event)" value="Confirmar Turno"/p>
                         
                     
                     </form></div>
             </div>
+
+            <script language="JavaScript"> 
+                function Confirmar(e){
+                var mensaje = "DESEA CONFIRMAR TUNRO?";
+                
+                    if (!confirm(mensaje)){
+                    e.preventDefault();
+                }}
+                
+                </script>
 
             <div class="footer " ><img src="../imagenes/copyright.jpg" width="40" height="40" alt="copyright"> Copyright Todos los derechos Reservados Aguilera Lautaro. Instagram: <a href="https://www.instagram.com/_lautaa/"><img src="../imagenes/Instagram_logo_2016.jpg" width="40" height="40"  ></a></div>
 </body>
